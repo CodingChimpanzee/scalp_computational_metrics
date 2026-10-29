@@ -41,7 +41,7 @@ You can change the folder and file paths at the top of the script.
 | `wake_probability` | Model probability for class 0 (wake), calculated as `1 - sleep_probability` |
 
 A probability of **0.5 or higher** can be interpreted as sleep; lower values
-as wake, following the original classification rule. The CSV contains
+as wake, as for the example showcase. The CSV contains
 probabilities only. Sample indices are copied unchanged.
 
 The provided model uses `liblinear` logistic regression with an L1 penalty.
