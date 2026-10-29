@@ -15,7 +15,7 @@ python sleep_wake_demo.py
 
 The two provided `.joblib` files must be beside the script. The included
 `metrics/example_metrics.csv` lets you try it immediately; it contains
-artificial data, not participant data or a model-accuracy test.
+simulated data with artifacts, not participant data or a model-accuracy test.
 
 ## Use your own metrics
 
@@ -42,7 +42,7 @@ You can change the folder and file paths at the top of the script.
 
 A probability of 0.5 or higher was interpreted as sleep; lower values
 as wake, as for the example showcase in this code. Note that the paper (Mostaghimi et al.,) has adaptive threshold which is not introduced in this example code. The CSV contains
-probabilities only. Sample indices are copied unchanged.
+probabilities only.
 
 The provided model uses `liblinear` logistic regression with an L1 penalty.
 It was saved with scikit-learn 1.0.2, which is pinned in `requirements.txt`.
